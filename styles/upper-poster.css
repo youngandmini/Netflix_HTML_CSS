@@ -20,6 +20,7 @@
 
     padding-left: 50px;
 
+
 }
 
 .upper-poster-blank {
@@ -42,7 +43,7 @@
 
 .play-button {
     color: white;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0,0,0, 0.4);
     border: none;
     padding-left: 25px;
     padding-right: 25px;

@@ -3,8 +3,8 @@
     position: absolute;
     width: 97.2%;
 
-    left: 20px;
-    right: 20px;
+    left: 30px;
+    right: 30px;
 
 }
 
@@ -24,7 +24,7 @@
     width: 200px;
     aspect-ratio: 100 / 145;
 
-    margin: 10px 20px 10px 0;
+    margin: 10px 30px 10px 0;
     transition: all 0.2s linear;
 }
 
