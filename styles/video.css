@@ -1,0 +1,29 @@
+
+.poster-section {
+    /*clear: top;*/
+    margin-top: 800px;
+}
+.poster-grid {
+}
+
+.poster-row {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.poster {
+    /*height: 285px;*/
+    width: 200px;
+    aspect-ratio: 100 / 145;
+
+    margin: 10px 20px 10px 0;
+    transition: all 0.2s linear;
+
+}
+
+
+.poster:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
