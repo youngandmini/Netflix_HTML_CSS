@@ -5,7 +5,7 @@
     left: 0;
     right: 0;
 
-    width: 100%;
+    width: 97.2%;
     margin-top: 0;
 
     aspect-ratio: 2500 / 1051;
@@ -15,21 +15,17 @@
     background-repeat: no-repeat;
     background-size: contain;
 
-    z-index: 0;
-
     display: flex;
     flex-direction: column;
 
     padding-left: 50px;
 
-
-    vertical-align: middle
-
-
 }
-.upper-poster-black {
+
+.upper-poster-blank {
     flex-grow: 2;
 }
+
 .upper-poster-title {
     margin-top: 50px;
     font-size: 40px;
@@ -46,7 +42,7 @@
 
 .play-button {
     color: white;
-    background-color: rgba(0,0,0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     border: none;
     padding-left: 25px;
     padding-right: 25px;
@@ -54,7 +50,7 @@
     padding-bottom: 10px;
 }
 
-.mylist-button {
+.my-list-button {
     color: white;
     background-color: rgba(0, 0, 0, 0.4);
     border: none;
@@ -73,6 +69,6 @@
 .play-button:hover {
     cursor: pointer;
 }
-.mylist-button:hover {
+.my-list-button:hover {
     cursor: pointer;
 }

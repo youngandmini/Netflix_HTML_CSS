@@ -1,16 +1,12 @@
 
 .header {
 
-    height: max-content;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
     background-color: rgba(0, 0, 0, 0);
     align-items: center;
-
-    /*padding-top: 10px;*/
 
     position: absolute;
 
@@ -30,12 +26,10 @@
 }
 
 .right-section {
-    /*height: 90px;*/
-    /*align-items: center;*/
     padding-right: 20px;
 }
-.user-button {
 
+.user-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +40,6 @@
     padding: 0;
     border: none;
     background-color: rgba(0, 0, 0, 100);
-
 }
 
 .user-button .tooltip {
@@ -68,7 +61,6 @@
 .user-button:hover .tooltip {
     opacity: 1;
 }
-
 
 .user {
     height: 50px;
