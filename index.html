@@ -41,12 +41,17 @@
 	
 	
 	<div class="poster-section">
-	<script src="script.js"></script>
-		<section class="poster-grid">
+<!--	<script src="script.js"></script>-->
+		<section class="poster-grid" id="poster_kr">
 			<p class="poster-category">
 				인기 한국 컨텐츠
 			</p>
 			<div class="poster-row">
+				
+				<button id="slide_left_kr" type="button" class="slide_left_button">◀</button>
+				<button id="slide_right_kr" type="button" class="slide_right_button">▶</button>
+<!--				<script src="scroll-script.js"></script>-->
+				
 				<img class="poster" src="assets/images/poster-kr/poster01.jpg">
 				<img class="poster" src="assets/images/poster-kr/poster02.jpg">
 				<img class="poster" src="assets/images/poster-kr/poster03.jpg">
@@ -58,11 +63,16 @@
 			</div>
 		</section>
 		
-		<section class="poster-grid">
+		<section class="poster-grid" id="poster_for">
 			<p class="poster-category">
 				인기 해외 컨텐츠
 			</p>
 			<div class="poster-row">
+				
+				<button id="slide_left_for" type="button" class="slide_left_button">◀</button>
+				<button id="slide_right_for" type="button" class="slide_right_button">▶</button>
+<!--				<script src="scroll-script.js"></script>-->
+				
 				<img class="poster" src="assets/images/poster/poster11.jpg">
 				<img class="poster" src="assets/images/poster/poster12.jpg">
 				<img class="poster" src="assets/images/poster/poster13.jpg">
@@ -76,6 +86,8 @@
 		
 		<section class="poster-end-space"></section>
 	</div>
-
+	
+	<script src="script.js"></script>
+	<script src="scroll-script.js"></script>
 </body>
 </html>

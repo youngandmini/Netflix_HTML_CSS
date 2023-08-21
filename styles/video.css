@@ -1,6 +1,7 @@
 
 .poster-section {
     position: absolute;
+
     width: 97.2%;
 
     left: 30px;
@@ -9,10 +10,11 @@
 }
 
 .poster-grid {
-    overflow-x: scroll;
+    /*overflow-x: scroll;*/
+    overflow-x: hidden;
+
     overflow-y: hidden;
     margin-bottom: 30px;
-
 }
 
 .poster-row {
@@ -41,20 +43,53 @@
 }
 
 
+/*
+스크롤 바 - 현재는 적용 X
+스크롤 버튼 대신 스크롤 바를 사용할경우에만 사용
+.poster-grid 에서 overflow-x: scroll;를 해야함
+*/
 .poster-grid::-webkit-scrollbar {
     height: 8px;
     background-color: rgba(0, 0, 0, 0);
 }
-
 .poster-grid::-webkit-scrollbar-thumb {
     background-color: dimgrey;
     border-radius: 5px;
 }
-
 .poster-grid::-webkit-scrollbar-track {
     background-color: rgba(0, 0, 0, 0);
 }
-
 .poster-grid::-webkit-scrollbar-thumb:hover {
     background-color: darkgray;
+}
+
+
+/* 스크롤 슬라이드 버튼 */
+.slide_left_button {
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 290px;
+    margin-top: 10px;
+
+    z-index: 1000;
+
+    background-color: rgb(0, 0, 0, 0.4);
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+.slide_right_button {
+    position: absolute;
+    right: 0;
+    width: 80px;
+    height: 290px;
+    margin-top: 10px;
+
+    z-index: 1000;
+
+    background-color: rgb(0, 0, 0, 0.4);
+    color: white;
+    font-size: 30px;
+    border: none;
 }

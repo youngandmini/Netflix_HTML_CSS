@@ -13,3 +13,4 @@ updatePosterSectionPosition();
 
 // 창 크기 변경 이벤트 감지
 window.addEventListener('resize', updatePosterSectionPosition);
+
