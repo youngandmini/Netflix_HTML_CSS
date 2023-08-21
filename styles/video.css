@@ -81,6 +81,8 @@
     border: none;
 
     visibility: visible;
+
+    transition: background-color 0.2s linear;
 }
 .slide_right_button {
     position: absolute;
@@ -98,4 +100,15 @@
     border: none;
 
     visibility: visible;
+
+    transition: background-color 0.2s linear;
+}
+
+.slide_left_button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+.slide_right_button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, 0.7);
 }
