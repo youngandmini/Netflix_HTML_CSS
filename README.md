@@ -19,6 +19,8 @@
 ![상단_포스터](https://github.com/youngandmini/Netflix_html_css/assets/80088671/234cf6b8-c165-47e4-87ab-87b6a1a3d223)
 위 그림과 같이 페이지 상단에 대표 컨텐츠가 큰 포스터로 표현될 수 있도록 하였다. 이 때, 헤더와 겹쳐질 수 있도록 헤더와 상단 포스터 둘 다 absulute position을 적용하였다.
 
+상단 포스터의 위쪽과 아래쪽은 검은색으로 그라데이션 되도록 background-image에 linear-gradient 옵션을 추가하였다.
+
 한편, 상단 포스터의 width는 position: absolute; top: 0; left: 0; right: 0;를 통해 화면 크기가 바뀌어도 화면에 꽉 차도록 유지할 수 있었지만, height는 고정된 길이를 사용하면 width와 비율이 맞지 않는 문제가 있었다. 그래서 aspect-ratio: 2500 / 1051; 옵션을 사용하여 width에 따라 height가 결정되도록 해서, 화면 크기 변경에 반응하여 height도 잘 조정되어 비율을 유지할 수 있도록 하였다.
 
 상단 포스터 내부의 제목 / 버튼 / 작품설명 등의 컨텐츠는 flex-direction: column;과 flex-grow: x; 옵션을 이용해 자기 위치를 유지하도록 하였다.
