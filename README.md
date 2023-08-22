@@ -9,6 +9,7 @@
 ## 사용한 방법들
 ### 1. 헤더
 넷플릭스 로고가 들어갈 left section과 사용자 아이콘이 들어갈 right section을 분리하였고, display: flex; justify-content: space-between; 등의 옵션을 이용해 원하는 위치에 자리를 잡을 수 있도록 하였다.
+
 추가적으로, 사용자 아이콘에 마우스를 올리면 아래 사진과 같이 사용자 변경이라는 툴팁이 표현될 수 있도록 하였다.
 
 ![사용자_변경](https://github.com/youngandmini/Netflix_html_css/assets/80088671/2fb136b3-5314-4130-a41e-4f62f2ce2014)
