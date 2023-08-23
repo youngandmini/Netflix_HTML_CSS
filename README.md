@@ -1,6 +1,6 @@
-## [결과물 보러가기↗](https://youngandmini.github.io/Netflix_html_css/)
-
 # Netflix UI를 HTML / CSS / JS 를 이용하여 만들어보기
+
+## [결과물 보러가기↗](https://youngandmini.github.io/Netflix_html_css/)
 
 ## 초기 목표로 한 이미지
 ![예시](https://github.com/youngandmini/Netflix_html_css/assets/80088671/99fc599a-5cef-4ee4-b323-af8178fc82d1)
