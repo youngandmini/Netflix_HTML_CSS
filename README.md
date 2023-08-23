@@ -1,3 +1,5 @@
+## [결과물 보러가기↗](https://youngandmini.github.io/Netflix_html_css/)
+
 # Netflix UI를 HTML / CSS / JS 를 이용하여 만들어보기
 
 ## 초기 목표로 한 이미지
